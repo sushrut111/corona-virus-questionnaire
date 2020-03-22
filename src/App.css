@@ -28,6 +28,40 @@
   color: #61dafb;
 }
 
+.container-s {
+  height: 100%;
+}
+
+.is-foot{
+  position: fixed;
+  bottom: 5%;
+}
+.mid-cont{
+  padding-top: 5%;
+}
+
+.rowrisk{
+  color: #b13636;
+  /* background-color:#FF9C9C; */
+}
+.rowsymp{
+  color: #959502;
+  /* background-color: #d4d439; */
+
+}
+.rowexpose{
+  color: #005c5c;
+  /* background-color: #00fcfc; */
+}
+
+@media print {
+  .printbutton {
+    display: none;
+  }
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

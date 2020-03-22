@@ -1,0 +1,63 @@
+Are you experiencing all of the below symptoms:
+-       Fever (>100oF)
+-       Fatigue
+-       Sore throat
+-       Dry cough
+a) 	Yes
+b)	No
+21.  Are you experiencing any of the following symptoms:
+-       Severe difficulty breathing (For example, struggling for each breathe, speaking in single words)
+-       Severe chest pain
+-       Feeling confused
+-       Lost consciousness
+a) 	Yes
+b)	No
+
+q: "Do you have a chronic lung disease?",
+objective: true,
+Yes
+No
+I don’t know
+q: "Do you smoke?",
+objective: true,
+Yes
+No
+q: "Do you have diabetes?",
+objective: true,
+Yes
+No
+ I don’t know
+q: "Do you have heart disease?",
+objective: true,
+Yes
+No
+I don’t know
+q: "Do you have any renal/kidney disease?",
+objective: true,
+Yes
+No
+I don’t know
+q: "Do you have obesity?",
+objective: true,
+Yes
+No
+I don’t know
+q: "Are you pregnant?",
+objective: true,
+Yes
+No
+I don’t know
+q: "Are you currently taking steroids (any other medicines on a regular basis)?",
+objective: true,
+Yes
+No
+I don’t know
+q: "Are you currently taking immunosuppressants? You take or get immunosuppressive after an organ transplant, in the therapy of an autoimmune disease, or during chemotherapy",
+objective: true,
+Yes
+No
+I don’t know
+q: "Have you been vaccinated against flu between October 2019 and today?",
+obje: true
+    es
+  No
