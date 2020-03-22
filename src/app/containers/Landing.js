@@ -21,7 +21,8 @@ function Landing(props) {
       <article class="tile is-child notification is-danger">
       <p class="title">About</p>
         <div class="content">
-        The GoCorona App is developed for public interest in the context of novel coronavirus COVID-19. The app includes a questionnaire focusing on potential exposure, symptoms and medical history of the patient. Based on the answers of these questions, recommendations would be displayed. Along with that, the pdf version of the questionnaire would be generated which can further be  downloaded and sent to a doctor to get their opinion. 
+        The GoCorona App is developed for public interest in the context of novel coronavirus COVID-19.
+        This application is inspired by multiple online resources and similar questionnaires. One such app is <b>CovApp</b>(link given in Important Links) We have been working towards making those resources available in regional languages. The app includes a questionnaire focusing on potential exposure, symptoms and medical history of the patient. Based on the answers of these questions, recommendations would be displayed. Along with that, the pdf version of the questionnaire would be generated which can further be  downloaded and sent to a doctor to get their opinion. 
 This application aims to support the healthcare system and optimize patient flow into the testing sites, ambulances and clinics. We want to help you assess your medical condition, provide recommendations and summarize relevant medical information for doctor’s consultation. Please note that this app is not intended for any diagnostic purpose. If in doubt, please get in touch with a healthcare provider. 
 
         </div>
@@ -43,6 +44,7 @@ This application aims to support the healthcare system and optimize patient flow
                 <a href="https://covidout.in/">COVID-19 India statistics</a><br/>    
                 <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">WHO - Novel coronavirus</a><br/>    
                 <a href="https://www.who.int/news-room/q-a-detail/q-a-coronaviruses">WHO - Novel coronavirus Q&A</a>    
+                <a href="https://covapp.charite.de/">CovApp</a>
         </div>
       </div>
     </article>
