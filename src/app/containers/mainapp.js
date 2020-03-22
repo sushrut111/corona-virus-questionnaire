@@ -22,7 +22,7 @@ function Mainapp() {
   const languageChange = (e) => {
     let newlang = e.target.value;
     if(part!=3){
-      setPart(4);
+      setPart(0);
       updateAnswers([]);  
     }
     if(part==3) 
@@ -43,6 +43,9 @@ function Mainapp() {
   }
   const gohome = () => {
     setPart(4);
+  }  
+  const retake = () => {
+    setPart(0);
   }
   const analyzeResponses = () => {
     updateRecommendations(analyzer(answers, language));
@@ -88,7 +91,7 @@ function Mainapp() {
           <div>
           <div className="printbutton">
           <center><button className="button is-danger is-light printbutton" onClick={()=>window.print()}>Print the report</button>
-          <button className="button is-success is-light printbutton" onClick={gohome}>Retake the quiz!</button></center><br/>
+          <button className="button is-success is-light printbutton" onClick={retake}>Retake the quiz!</button></center><br/>
           <Recommendations recommendations={recommendations} language={language}/>
           </div>
           <br/>
@@ -106,7 +109,7 @@ function Mainapp() {
   return (
 
     <div className="container is-widescreen">
-        <LanguageSelector languages={languages} languageChange={languageChange}  goHome={gohome}></LanguageSelector>
+        <LanguageSelector languages={languages} languageChange={languageChange}  goHome={gohome} part={part} language={language}></LanguageSelector>
         <div className="mid-cont" >
         {
           renderSwitch(part)
