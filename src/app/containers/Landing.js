@@ -43,7 +43,7 @@ This application aims to support the healthcare system and optimize patient flow
                 <a href="https://www.mohfw.gov.in/pdf/FAQ.pdf">COVID-19 FAQs</a><br/>    
                 <a href="https://covidout.in/">COVID-19 India statistics</a><br/>    
                 <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">WHO - Novel coronavirus</a><br/>    
-                <a href="https://www.who.int/news-room/q-a-detail/q-a-coronaviruses">WHO - Novel coronavirus Q&A</a>    
+                <a href="https://www.who.int/news-room/q-a-detail/q-a-coronaviruses">WHO - Novel coronavirus Q&A</a><br/>    
                 <a href="https://covapp.charite.de/">CovApp</a>
         </div>
       </div>
