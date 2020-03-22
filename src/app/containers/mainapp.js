@@ -22,9 +22,11 @@ function Mainapp() {
     let newlang = e.target.value;
     if(part!=3){
       setPart(0);
-      updateAnswers([]);
-  
+      updateAnswers([]);  
     }
+    if(part==3) 
+    updateRecommendations(analyzer(answers, newlang));
+
     setLanguage(newlang);
 
     showToast("Language is changed to "+newlang);
@@ -77,6 +79,8 @@ function Mainapp() {
           <button className="button is-primary is-light printbutton" onClick={()=>window.print()}>Print the report</button>
           </div>
           <Recommendations recommendations={recommendations} language={language}/>
+          <br/>
+          <br/>
           <ResultTable language={language} questions={questions[language].questions} answers={answers}/>
           </div>
         )

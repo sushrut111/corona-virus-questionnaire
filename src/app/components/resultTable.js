@@ -5,6 +5,25 @@ import getclass from '../api/questionclasses';
 function ResultTable(props) {
         const {language, questions, answers} = props;
         return (
+            <div>
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title">
+                    Color codes
+                    </p>
+                    
+                </header>
+                <div class="card-content">
+                    <div class="content columns">
+                            <div className="column">General questions</div>
+                            <div className="column rowexpose">Questions related to exposure</div>
+                            <div className="column rowsymp">Questions related to symptoms</div>
+                            <div className="column rowrisk">Questions related to risks</div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <br/>
             <table className="table is-striped is-hoverable is-fullwidth">
                 <thead>
                     <tr>
@@ -27,6 +46,7 @@ function ResultTable(props) {
                     })}
                 </tbody>
             </table>
+            </div>
         );
     }
     
