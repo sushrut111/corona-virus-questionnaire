@@ -9,7 +9,7 @@ const questions = {
             {
                 q: "Which age group do you fall in? (years)",
                 objective: true,
-                options: ["Under 40","41-50", "51-60", "61-70", "Over 70" ]
+                options: ["Under 40","41-50", "51-60", "61-70", "71-80", "More than 80"]
             },
             {
                 q: " What is your current living situation?",
