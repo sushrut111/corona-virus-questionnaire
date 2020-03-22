@@ -1,7 +1,10 @@
 import questions from "./questions";
-import recommendations from "./recommendations";
-const analyzer = (answers) => {
+import recommendationsall from "./recommendations";
+const analyzer = (answers, language) => {
     const ansdict = {}
+    const recommendations = recommendationsall[language];
+    console.log(language);
+    console.log(recommendationsall);
     answers.forEach(element => {
         ansdict[element.question] = element.answer;
     });

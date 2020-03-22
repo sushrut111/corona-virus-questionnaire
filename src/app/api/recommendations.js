@@ -1,5 +1,5 @@
 const recommendations = {
-    english: {
+    English: {
         exposed: {
             yes: {
                 attention: [

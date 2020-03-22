@@ -20,8 +20,11 @@ function Mainapp() {
   const [recommendations, updateRecommendations] = useState([]);
   const languageChange = (e) => {
     let newlang = e.target.value;
-    setPart(0);
-    updateAnswers([]);
+    if(part!=3){
+      setPart(0);
+      updateAnswers([]);
+  
+    }
     setLanguage(newlang);
 
     showToast("Language is changed to "+newlang);
@@ -36,7 +39,7 @@ function Mainapp() {
       });
   }
   const analyzeResponses = () => {
-    updateRecommendations(analyzer(answers));
+    updateRecommendations(analyzer(answers, language));
   }
   const handleTransition = () => {
     if(parts[part]=="questionnaire"){
@@ -73,7 +76,7 @@ function Mainapp() {
           <div className="printbutton">
           <button className="button is-primary is-light printbutton" onClick={()=>window.print()}>Print the report</button>
           </div>
-          <Recommendations recommendations={recommendations}/>
+          <Recommendations recommendations={recommendations} language={language}/>
           <ResultTable language={language} questions={questions[language].questions} answers={answers}/>
           </div>
         )
