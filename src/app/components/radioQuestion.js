@@ -1,16 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import questions from '../api/questions';
 function RadioQuestion(props) {
 
 const {number, question, setAnswerToQuestion} = props;
-const [answer, setAnswer] = useState(0);
+const [answer, setAnswer] = useState(1);
 const handleSelection = (e) => {
     setAnswer(e.target.value);
 }
 const handleSubmit = () => {
     setAnswerToQuestion(number, answer);
 }
-
+useEffect(()=>{
+    setAnswer(1);
+},[number])
 return (
     <div>
     {question.options.map((option, i)=>{ return (

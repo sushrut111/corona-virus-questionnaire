@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import 'bulma/css/bulma.css'
 import Instructions from './instructions';
 import Disclaimer from './disclaimer';
+import Landing from './Landing';
 import LanguageSelector from '../components/languageSelector';
 import questions from '../api/questions';
 import Questionbox from './questionbox';
@@ -13,7 +14,7 @@ import recommendationText from "../api/recommendations";
 
 function Mainapp() {
   const parts = ["disclaimer", "instructions", "questionnaire", "results"];
-  const [part, setPart] = useState(0);
+  const [part, setPart] = useState(4);
   const languages = Object.keys(questions);
   const [language, setLanguage] = useState(languages[0]);
   const [answers, updateAnswers] = useState([]);
@@ -21,7 +22,7 @@ function Mainapp() {
   const languageChange = (e) => {
     let newlang = e.target.value;
     if(part!=3){
-      setPart(0);
+      setPart(4);
       updateAnswers([]);  
     }
     if(part==3) 
@@ -40,6 +41,9 @@ function Mainapp() {
         opacity: 1
       });
   }
+  const gohome = () => {
+    setPart(4);
+  }
   const analyzeResponses = () => {
     updateRecommendations(analyzer(answers, language));
   }
@@ -48,7 +52,14 @@ function Mainapp() {
       // analyzeResponses();
       //wait for analysis to be available
     }
-    setPart(part+1);
+    if(part==4)
+      setPart(0);
+    else{
+      if(part<4) setPart(part+1);
+      else{
+        setPart(4);
+      }
+    }
   }
   const addAnswer = (ansobj) => {
     const temp = [...answers];
@@ -76,16 +87,17 @@ function Mainapp() {
         return (
           <div>
           <div className="printbutton">
-          <button className="button is-primary is-light printbutton" onClick={()=>window.print()}>Print the report</button>
-          </div>
+          <center><button className="button is-danger is-light printbutton" onClick={()=>window.print()}>Print the report</button>
+          <button className="button is-success is-light printbutton" onClick={gohome}>Retake the quiz!</button></center><br/>
           <Recommendations recommendations={recommendations} language={language}/>
+          </div>
           <br/>
           <br/>
           <ResultTable language={language} questions={questions[language].questions} answers={answers}/>
           </div>
         )
       default:
-        return <Disclaimer language={language} content={questions[language].disclaimer} handleTransition={handleTransition}/>
+        return <Landing handleTransition={handleTransition}/>
 
   
     }
@@ -94,7 +106,7 @@ function Mainapp() {
   return (
 
     <div className="container is-widescreen">
-        <LanguageSelector languages={languages} languageChange={languageChange}></LanguageSelector>
+        <LanguageSelector languages={languages} languageChange={languageChange}  goHome={gohome}></LanguageSelector>
         <div className="mid-cont" >
         {
           renderSwitch(part)

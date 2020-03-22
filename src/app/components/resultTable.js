@@ -18,7 +18,7 @@ function ResultTable(props) {
                             <div className="column">General questions</div>
                             <div className="column rowexpose">Questions related to exposure</div>
                             <div className="column rowsymp">Questions related to symptoms</div>
-                            <div className="column rowrisk">Questions related to risks</div>
+                            <div className="column rowrisk">Questions related to medical history for risk factors</div>
                     </div>
                 </div>
             </div>

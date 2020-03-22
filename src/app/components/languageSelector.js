@@ -3,15 +3,15 @@ import 'bulma/css/bulma.css';
 
 function LanguageSelector(props) {
 
-    const {languages, languageChange} = props;
+    const {languages, languageChange, goHome} = props;
         return (
-            <section className="hero is-info">
+            <section className="hero is-info is-bold">
   <div className="hero-body">
     <div className="container">
       <div className="columns">
-        <div className="column">
+        <div className="column" onClick={goHome}>
         <h1 className="title">
-        Go Corona!
+        GoCorona
       </h1>
       <h2 className="subtitle">
         Corona go!!
