@@ -23,8 +23,8 @@ function Disclaimer(props) {
 
   }
   <div className="panel-block">
-    <button className="button is-link is-outlined is-fullwidth" onClick={handleTransition}>
-        I understand and want to take the questionnaire!
+    <button className="button is-danger is-outlined" onClick={handleTransition}>
+        I understand
     </button>
   </div>
 </article>

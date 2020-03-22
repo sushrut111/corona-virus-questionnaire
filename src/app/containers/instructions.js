@@ -25,8 +25,8 @@ function Instructions(props) {
   }
 
   <div className="panel-block">
-    <button className="button is-link is-outlined is-fullwidth" onClick={handleTransition}>
-        Start the questionnaire
+    <button className="button is-link is-outlined" onClick={handleTransition}>
+        Start
     </button>
   </div>
 </article>

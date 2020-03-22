@@ -36,15 +36,13 @@ This application aims to support the healthcare system and optimize patient flow
 
         
         <div class="content">
-        <a className="level" href="https://www.mohfw.gov.in/">Ministry of health</a>    
-                <a className="level" href="https://icmr.nic.in/node/39071">Indian Council of Medical Research</a>    
-                <a className="level" href="https://www.mygov.in/covid-19">Govt. of India - COVID-19</a>    
-                <a className="level" href="https://www.mohfw.gov.in/pdf/FAQ.pdf">COVID-19 FAQs</a>    
-                <a className="level" href="https://covidout.in/">COVID-19 India statistics</a>    
-                <a className="level" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">WHO - Novel coronavirus</a>    
-                <a className="level" href="https://www.who.int/news-room/q-a-detail/q-a-coronaviruses">WHO - Novel coronavirus Q&A</a>    
-
-
+                <a href="https://www.mohfw.gov.in/">Ministry of health</a><br/>
+                <a href="https://icmr.nic.in/node/39071">Indian Council of Medical Research</a><br/>    
+                <a href="https://www.mygov.in/covid-19">Govt. of India - COVID-19</a><br/>    
+                <a href="https://www.mohfw.gov.in/pdf/FAQ.pdf">COVID-19 FAQs</a><br/>    
+                <a href="https://covidout.in/">COVID-19 India statistics</a><br/>    
+                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">WHO - Novel coronavirus</a><br/>    
+                <a href="https://www.who.int/news-room/q-a-detail/q-a-coronaviruses">WHO - Novel coronavirus Q&A</a>    
         </div>
       </div>
     </article>

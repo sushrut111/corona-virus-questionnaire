@@ -32,7 +32,7 @@ return (
 
     </a>
     <div className="panel-block">
-    <button className="button is-link is-outlined is-fullwidth" onClick={handleSubmit}>
+    <button className="button is-link is-outlined" onClick={handleSubmit}>
     Next
     </button>
     </div>
