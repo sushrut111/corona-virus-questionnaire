@@ -42,9 +42,11 @@ function Mainapp() {
       });
   }
   const gohome = () => {
+    updateAnswers([]);
     setPart(4);
   }  
   const retake = () => {
+    updateAnswers([]);
     setPart(0);
   }
   const analyzeResponses = () => {
