@@ -11,14 +11,14 @@ const recommendations = {
                 ],
                 getintouch: [
                     "is-warning",
-                    "Get in touch with a physician.",
-                    "You have been exposed so you might be at risk and contagious to others.","Quarantine yourself and avoid contact with other people.",
+                    "Get in touch with a physician and monitor your symptoms closely.",
+                    "You might have been exposed so you might be at risk and contagious to others.","Quarantine yourself and avoid contact with other people.",
                     "The pdf version of the questionnaire can be forwarded to the doctor to provide detailed information regarding your symptoms, exposure and medical history.", "Please follow their recommendation"
                 ],
                 stayhome: [
                     "is-warning",
                     "Please stay at home and monitor yourself.",
-                    "You have been exposed so you might be at risk and contagious to others.","Currently, you don’t have any symptoms but if you develop any, please get in touch with a doctor.",
+                    "You might have been exposed so you might be at risk and contagious to others.","Currently, you don’t have any symptoms but if you develop any, please get in touch with a doctor.",
                     "Quarantine yourself and avoid contact with other people."
                 ]
     
@@ -93,15 +93,15 @@ const recommendations = {
                                     ],
                 getintouch:  [
                     "is-warning",
-                    "एखाद्या डॉक्टरशी संपर्क साधा",
-                    "आपला संक्रमित संपर्क आला आहे म्हणून आपणास धोका असू शकतो आणि आपल्यामुळे संक्रमणाचा धोका आहे.",
+                    "एखाद्या डॉक्टरशी संपर्क साधा आणि आपल्या लक्षणांवर बारकाईने निरीक्षण करा",
+                    "आपला संक्रमित संपर्क आला असू शकतो म्हणून आपणास धोका असू शकतो आणि आपल्यामुळे संक्रमणाचा धोका आहे.",
                     "स्वत: ला अलग ठेवा आणि इतर लोकांशी संपर्क टाळा.",
                     "प्रश्नावलीची पीडीएफ आवृत्ती आपल्या लक्षणे, संपर्क आणि वैद्यकीय इतिहासाशी संबंधित तपशीलवार माहिती देण्यासाठी डॉक्टरकडे पाठविली जाऊ शकते.",
                     "कृपया त्यांच्या शिफारसीचे अनुसरण करा"                ],
                 stayhome: [
                     "is-warning",
                     "कृपया घरीच रहा आणि स्वतःचे परीक्षण करा.",
-                    "आपला संक्रमित संपर्क आला आहे म्हणून आपणास धोका असू शकतो आणि आपल्यामुळे संक्रमणाचा धोका आहे.",
+                    "आपला संक्रमित संपर्क आला असू शकतो म्हणून आपणास धोका असू शकतो आणि आपल्यामुळे संक्रमणाचा धोका आहे.",
                     "सध्या आपल्याकडे कोणतीही लक्षणे नाहीत परंतु जर आपल्याला काही विकसित झाले तर कृपया डॉक्टरांच्या संपर्कात रहा.",
                     "स्वत: ला अलग ठेवा आणि इतर लोकांशी संपर्क टाळा"                ]
             }
@@ -149,15 +149,15 @@ const recommendations = {
                                                         ],
                 getintouch:  [
                     "is-warning",
-                    "चिकित्सक से संपर्क करे।",
-                    "आप संक्रमित मरीज के संपर्क में रह चुके हैं इसलिए आप दूसरों के लिए जोखिम और संक्रामक हो सकते हैं।","खुद को कोरांटीन करें और अन्य लोगों के साथ संपर्क से बचें।",
+                    "चिकित्सक से संपर्क करे और अपने लक्षणों की बारीकी से निगरानी करें।",
+                    "आप संक्रमित मरीज के संपर्क में रह चुके हो सकते हैं इसलिए आप दूसरों के लिए जोखिम और संक्रामक हो सकते हैं।","खुद को कोरांटीन करें और अन्य लोगों के साथ संपर्क से बचें।",
                     "प्रश्नावली का पीडीएफ संस्करण आपके लक्षणों, जोखिम और चिकित्सा इतिहास के बारे में विस्तृत जानकारी प्रदान करने के लिए डॉक्टर को भेजा जा सकता है।",
                     "कृपया उनकी सिफारिश का पालन करें।"],
 
                 stayhome: [
                     "is-warning",
                     "कृपया घर पर रहें और खुद की निगरानी करें।",
-                    "आप संक्रमित मरीज के संपर्क में रह चुके हैं इसलिए आप दूसरों के लिए जोखिम और संक्रामक हो सकते हैं।",
+                    "आप संक्रमित मरीज के संपर्क में रह चुके हो सकते हैं इसलिए आप दूसरों के लिए जोखिम और संक्रामक हो सकते हैं।",
                     "वर्तमान में, आपके पास कोई लक्षण नहीं हैं, लेकिन यदि आप कोई भी विकसित करते हैं, तो कृपया डॉक्टर से संपर्क करें।",
                     "खुद को कोरांटीन करें और अन्य लोगों के साथ संपर्क से बचें।"
                 ]
