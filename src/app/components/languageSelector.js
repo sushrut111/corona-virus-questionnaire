@@ -18,16 +18,16 @@ function LanguageSelector(props) {
       </h2>
         </div>
         <div>
-        <div className="select is-rounded is-pulled-right">
+        
                   
-          {part!=4?<select onChange={languageChange} >
+          {part!=4?<div className="select is-rounded is-pulled-right"><select onChange={languageChange} >
             {languages.map((lang, i)=>{
     
             return (<option key={i} value={lang} selected={language==lang}>{lang}</option>)
             })}
-  </select>:""}
+  </select></div>:""}
   
-</div>
+
         </div>
       </div>
           
