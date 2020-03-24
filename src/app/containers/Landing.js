@@ -28,6 +28,25 @@ This application aims to support the healthcare system and optimize patient flow
         </div>
       </article>
     </div>
+    <div class="tile is-parent">
+      <article class="tile is-child notification is-info">
+      <p class="title">Contributors</p>
+        <div class="content">
+          <ul>
+            <li>
+              Simran Asawa
+            </li>
+            <li>
+              Sushrut Kasture
+            </li>
+            <li>
+              Harini Lakshminarayanan
+            </li>
+          </ul>
+
+        </div>
+      </article>
+    </div>
   </div>
   <div class="tile is-parent">
     <article class="tile is-child notification ">
