@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/corona-virus-questionnaire/static/css/main.8e1740df.chunk.css",
+    "main.js": "/corona-virus-questionnaire/static/js/main.5ff82574.chunk.js",
+    "main.js.map": "/corona-virus-questionnaire/static/js/main.5ff82574.chunk.js.map",
+    "runtime-main.js": "/corona-virus-questionnaire/static/js/runtime-main.72806453.js",
+    "runtime-main.js.map": "/corona-virus-questionnaire/static/js/runtime-main.72806453.js.map",
+    "static/css/2.aeed1b96.chunk.css": "/corona-virus-questionnaire/static/css/2.aeed1b96.chunk.css",
+    "static/js/2.bfa51cf9.chunk.js": "/corona-virus-questionnaire/static/js/2.bfa51cf9.chunk.js",
+    "static/js/2.bfa51cf9.chunk.js.map": "/corona-virus-questionnaire/static/js/2.bfa51cf9.chunk.js.map",
+    "index.html": "/corona-virus-questionnaire/index.html",
+    "precache-manifest.84dc692d191b5ec5911008674b301c32.js": "/corona-virus-questionnaire/precache-manifest.84dc692d191b5ec5911008674b301c32.js",
+    "service-worker.js": "/corona-virus-questionnaire/service-worker.js",
+    "static/css/2.aeed1b96.chunk.css.map": "/corona-virus-questionnaire/static/css/2.aeed1b96.chunk.css.map",
+    "static/css/main.8e1740df.chunk.css.map": "/corona-virus-questionnaire/static/css/main.8e1740df.chunk.css.map",
+    "static/js/2.bfa51cf9.chunk.js.LICENSE.txt": "/corona-virus-questionnaire/static/js/2.bfa51cf9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72806453.js",
+    "static/css/2.aeed1b96.chunk.css",
+    "static/js/2.bfa51cf9.chunk.js",
+    "static/css/main.8e1740df.chunk.css",
+    "static/js/main.5ff82574.chunk.js"
+  ]
+}
