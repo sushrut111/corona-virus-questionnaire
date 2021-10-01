@@ -12,7 +12,7 @@ function Landing(props) {
       <div class="tile is-parent is-vertical">
         <article class="tile is-child notification is-warning" onClick={handleTransition}>
           <p class="title">Confused if you should see a doctor?</p>
-          <p class="subtitle">Take the quiz to know. (Click me!)</p>
+          <p class="subtitle">Take the quiz to know.<a style={{textDecoration:"none"}}> (Click me!)</a></p>
         </article>
         
       </div>
