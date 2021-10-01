@@ -60,6 +60,19 @@
 	transform: scale(0.98);
 }
 
+.backButton{
+	position: absolute;
+	font-size: 1.1rem;
+}
+
+.heading1{
+	margin-left: 100px;
+}
+
+.heading2{
+	margin-left: 100px;
+}
+
 @media print {
 	.printbutton {
 		display: none;
