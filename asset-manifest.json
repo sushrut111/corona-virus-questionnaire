@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/corona-virus-questionnaire/static/css/main.87a535db.chunk.css",
-    "main.js": "/corona-virus-questionnaire/static/js/main.e307f363.chunk.js",
-    "main.js.map": "/corona-virus-questionnaire/static/js/main.e307f363.chunk.js.map",
+    "main.css": "/corona-virus-questionnaire/static/css/main.cbcfef5a.chunk.css",
+    "main.js": "/corona-virus-questionnaire/static/js/main.f80e55c3.chunk.js",
+    "main.js.map": "/corona-virus-questionnaire/static/js/main.f80e55c3.chunk.js.map",
     "runtime-main.js": "/corona-virus-questionnaire/static/js/runtime-main.480ed1da.js",
     "runtime-main.js.map": "/corona-virus-questionnaire/static/js/runtime-main.480ed1da.js.map",
     "static/css/2.a1df12c0.chunk.css": "/corona-virus-questionnaire/static/css/2.a1df12c0.chunk.css",
     "static/js/2.990d6205.chunk.js": "/corona-virus-questionnaire/static/js/2.990d6205.chunk.js",
     "static/js/2.990d6205.chunk.js.map": "/corona-virus-questionnaire/static/js/2.990d6205.chunk.js.map",
     "index.html": "/corona-virus-questionnaire/index.html",
-    "precache-manifest.93f73816a77dddad797a4800d45ffcf9.js": "/corona-virus-questionnaire/precache-manifest.93f73816a77dddad797a4800d45ffcf9.js",
+    "precache-manifest.4620b4baef0f5e5e387666c6ca7cff9c.js": "/corona-virus-questionnaire/precache-manifest.4620b4baef0f5e5e387666c6ca7cff9c.js",
     "service-worker.js": "/corona-virus-questionnaire/service-worker.js",
     "static/css/2.a1df12c0.chunk.css.map": "/corona-virus-questionnaire/static/css/2.a1df12c0.chunk.css.map",
-    "static/css/main.87a535db.chunk.css.map": "/corona-virus-questionnaire/static/css/main.87a535db.chunk.css.map",
+    "static/css/main.cbcfef5a.chunk.css.map": "/corona-virus-questionnaire/static/css/main.cbcfef5a.chunk.css.map",
     "static/js/2.990d6205.chunk.js.LICENSE.txt": "/corona-virus-questionnaire/static/js/2.990d6205.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.480ed1da.js",
     "static/css/2.a1df12c0.chunk.css",
     "static/js/2.990d6205.chunk.js",
-    "static/css/main.87a535db.chunk.css",
-    "static/js/main.e307f363.chunk.js"
+    "static/css/main.cbcfef5a.chunk.css",
+    "static/js/main.f80e55c3.chunk.js"
   ]
 }

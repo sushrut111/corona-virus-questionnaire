@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "573c991b0842e7b7a05476f872c0d2a8",
+    "revision": "a6d08ea3cc07bcede664eaa2e4052fbb",
     "url": "/corona-virus-questionnaire/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/corona-virus-questionnaire/static/css/2.a1df12c0.chunk.css"
   },
   {
-    "revision": "1ffd0b56b598b23af1ae",
-    "url": "/corona-virus-questionnaire/static/css/main.87a535db.chunk.css"
+    "revision": "d86d4d85f810bad1dc02",
+    "url": "/corona-virus-questionnaire/static/css/main.cbcfef5a.chunk.css"
   },
   {
     "revision": "bd57aecbb3ecf4daead6",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/corona-virus-questionnaire/static/js/2.990d6205.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ffd0b56b598b23af1ae",
-    "url": "/corona-virus-questionnaire/static/js/main.e307f363.chunk.js"
+    "revision": "d86d4d85f810bad1dc02",
+    "url": "/corona-virus-questionnaire/static/js/main.f80e55c3.chunk.js"
   },
   {
     "revision": "32e3ff7c3eaf88d03d6f",
