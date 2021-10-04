@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/corona-virus-questionnaire/static/css/main.cbcfef5a.chunk.css",
-    "main.js": "/corona-virus-questionnaire/static/js/main.f80e55c3.chunk.js",
-    "main.js.map": "/corona-virus-questionnaire/static/js/main.f80e55c3.chunk.js.map",
-    "runtime-main.js": "/corona-virus-questionnaire/static/js/runtime-main.480ed1da.js",
-    "runtime-main.js.map": "/corona-virus-questionnaire/static/js/runtime-main.480ed1da.js.map",
-    "static/css/2.a1df12c0.chunk.css": "/corona-virus-questionnaire/static/css/2.a1df12c0.chunk.css",
-    "static/js/2.990d6205.chunk.js": "/corona-virus-questionnaire/static/js/2.990d6205.chunk.js",
-    "static/js/2.990d6205.chunk.js.map": "/corona-virus-questionnaire/static/js/2.990d6205.chunk.js.map",
+    "main.css": "/corona-virus-questionnaire/static/css/main.b1e8b5c2.chunk.css",
+    "main.js": "/corona-virus-questionnaire/static/js/main.e97fd9de.chunk.js",
+    "main.js.map": "/corona-virus-questionnaire/static/js/main.e97fd9de.chunk.js.map",
+    "runtime-main.js": "/corona-virus-questionnaire/static/js/runtime-main.72806453.js",
+    "runtime-main.js.map": "/corona-virus-questionnaire/static/js/runtime-main.72806453.js.map",
+    "static/css/2.aeed1b96.chunk.css": "/corona-virus-questionnaire/static/css/2.aeed1b96.chunk.css",
+    "static/js/2.bfa51cf9.chunk.js": "/corona-virus-questionnaire/static/js/2.bfa51cf9.chunk.js",
+    "static/js/2.bfa51cf9.chunk.js.map": "/corona-virus-questionnaire/static/js/2.bfa51cf9.chunk.js.map",
     "index.html": "/corona-virus-questionnaire/index.html",
-    "precache-manifest.4620b4baef0f5e5e387666c6ca7cff9c.js": "/corona-virus-questionnaire/precache-manifest.4620b4baef0f5e5e387666c6ca7cff9c.js",
+    "precache-manifest.aba86dedf199660445ace11e64da665b.js": "/corona-virus-questionnaire/precache-manifest.aba86dedf199660445ace11e64da665b.js",
     "service-worker.js": "/corona-virus-questionnaire/service-worker.js",
-    "static/css/2.a1df12c0.chunk.css.map": "/corona-virus-questionnaire/static/css/2.a1df12c0.chunk.css.map",
-    "static/css/main.cbcfef5a.chunk.css.map": "/corona-virus-questionnaire/static/css/main.cbcfef5a.chunk.css.map",
-    "static/js/2.990d6205.chunk.js.LICENSE.txt": "/corona-virus-questionnaire/static/js/2.990d6205.chunk.js.LICENSE.txt"
+    "static/css/2.aeed1b96.chunk.css.map": "/corona-virus-questionnaire/static/css/2.aeed1b96.chunk.css.map",
+    "static/css/main.b1e8b5c2.chunk.css.map": "/corona-virus-questionnaire/static/css/main.b1e8b5c2.chunk.css.map",
+    "static/js/2.bfa51cf9.chunk.js.LICENSE.txt": "/corona-virus-questionnaire/static/js/2.bfa51cf9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.480ed1da.js",
-    "static/css/2.a1df12c0.chunk.css",
-    "static/js/2.990d6205.chunk.js",
-    "static/css/main.cbcfef5a.chunk.css",
-    "static/js/main.f80e55c3.chunk.js"
+    "static/js/runtime-main.72806453.js",
+    "static/css/2.aeed1b96.chunk.css",
+    "static/js/2.bfa51cf9.chunk.js",
+    "static/css/main.b1e8b5c2.chunk.css",
+    "static/js/main.e97fd9de.chunk.js"
   ]
 }
