@@ -1,32 +1,36 @@
-import React from "react";
-import "bulma/css/bulma.css";
-import "../../App.css";
+import React from 'react';
+import 'bulma/css/bulma.css';
+import '../../App.css';
+
 function Landing(props) {
   const { handleTransition } = props;
 
   return (
     <div>
-      <div class="tile is-ancestor">
-        <div class="tile is-vertical is-8">
-          <div class="tile">
-            <div class="tile is-parent is-vertical clickable">
+      <div className="tile is-ancestor">
+        <div className="tile is-vertical is-8">
+          <div className="tile">
+            <div className="tile is-parent is-vertical clickable">
               <article
-                class="tile is-child notification is-warning"
+                className="tile is-child notification is-warning"
                 onClick={handleTransition}
               >
-                <p class="title">Confused if you should see a doctor?</p>
-                <p class="subtitle">Take the quiz to know. (Click me!)</p>
+                <p className="title">Confused if you should see a doctor?</p>
+                <p className="subtitle">Take the quiz to know. (Click me!)</p>
               </article>
             </div>
           </div>
-          <div class="tile is-parent">
-            <article class="tile is-child notification is-danger">
-              <p class="title">About</p>
-              <div class="content">
+          <div className="tile is-parent">
+            <article className="tile is-child notification is-danger">
+              <p className="title">About</p>
+              <div className="content">
                 The GoCorona App is developed for public interest in the context
                 of novel coronavirus COVID-19. This application is inspired by
                 multiple online resources and similar questionnaires. One such
-                app is <b>CovApp</b>(link given in Important Links) We have been
+                app is
+                {' '}
+                <b>CovApp</b>
+                (link given in Important Links) We have been
                 working towards making those resources available in regional
                 languages. The app includes a questionnaire focusing on
                 potential exposure, symptoms and medical history of the patient.
@@ -44,10 +48,10 @@ function Landing(props) {
               </div>
             </article>
           </div>
-          <div class="tile is-parent">
-            <article class="tile is-child notification is-info">
-              <p class="title">Contributors</p>
-              <div class="content">
+          <div className="tile is-parent">
+            <article className="tile is-child notification is-info">
+              <p className="title">Contributors</p>
+              <div className="content">
                 <ul>
                   <li>Simran Asawa</li>
                   <li>Sushrut Kasture</li>
@@ -57,15 +61,15 @@ function Landing(props) {
             </article>
           </div>
         </div>
-        <div class="tile is-parent">
-          <article class="tile is-child notification ">
-            <div class="content">
-              <p class="title">Important links</p>
+        <div className="tile is-parent">
+          <article className="tile is-child notification ">
+            <div className="content">
+              <p className="title">Important links</p>
               <p className="subtitle">
                 For more information regarding COVID-19
               </p>
 
-              <div class="content links">
+              <div className="content links">
                 <ul>
                   <li>
                     <a
